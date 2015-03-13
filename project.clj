@@ -20,8 +20,7 @@
                                     :rules :clj}
                                    {:source-paths ["test/cljx"]
                                     :output-path "target/classes"
-                                    :rules :cljs}]}
-                   :hooks [cljx.hooks]}
+                                    :rules :cljs}]}}
              :clj-1.5.1 {:dependencies [[org.clojure/clojure "1.5.1"]]}
              :clj-1.4.0 {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :clj-1.3.0 {:dependencies [[org.clojure/clojure "1.3.0"]]}}
